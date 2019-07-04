@@ -1,0 +1,45 @@
+body
+{
+  background-color: #ffb825	;
+  text-align: center;
+}
+#upper
+{
+  border-radius : 5px;
+  background-color: #f7edf8	;
+  width: 75%;
+  padding-top: 20px;
+  display: inline-block;
+}
+label
+{
+  display: inline-block;
+  width: 140px;
+  text-align: left;
+}
+input
+{
+  display: inline-block;
+  
+}
+.grid-inline {
+  display: grid;
+  grid-template-rows: 1fr;
+}
+.grid-inline .input-group {
+  display: grid;
+  grid-template-columns: 30% 60%;
+  padding-left: 20px;
+}
+.but
+{
+  padding-right : 100px;
+  padding-bottom: 50px;
+}
+button
+{
+  background-color: #0028ff;
+  border-radius: 15px 15px 15px 15px;
+  height: 30px;
+  width: 100px;
+}

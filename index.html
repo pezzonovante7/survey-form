@@ -1,0 +1,83 @@
+<body>
+  <h1 id="title">The Survey Form</h1>
+  <div >
+    <p id="description">This form is for a survey on the students of freecodecamp.</p>
+  </div>
+  <br>
+  <div id="upper">
+    <form id="survey-form" class="grid-inline">
+      <div class="input-group">
+      <label id="name-label"  class="lables" for="name">Name : </label>
+      <input id="name" style="vertical-align: middle" class="lables" type="text" placeholder="your name here ..." required/>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="input-group">
+      <label id="email-label" class="lables" for="email">Email address : </label>
+      <input id="email" style="vertical-align: middle" type="email" placeholder="email address here ..." required/>
+      </div>
+        <br>
+      <br>
+      <br>
+      <div class="input-group">
+      <label id="number-label" for="number">Age : </label>
+      <input id="number" style="vertical-align: middle" type="number" placeholder="enter your age here ... " min="10" max="25"/>
+      </div>
+      <br>
+      <br>
+      <div class="input-group">
+      <label class="lables" for="dropdown">Which option best describes your current role?  
+ </label>
+      <select id="dropdown">
+        <option value="student">student</option>
+        <option value="professional">professional</option>
+        <option value="fulltimejob">Full Time Job</option>
+        <option value="fulltimeprofessional">Full Time Professional</option>
+        <option value="none">none</option>
+      </select>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="input-group">
+      <label class="lables" for="opt">Gender:   </label>
+        
+        <label><input id="opt" style="vertical-align: middle; margin: 0px;" type="radio" name="gender" value="male"> Male</label><br>
+  <label><input type="radio" style="vertical-align: middle; margin: 0px;" name="gender" value="female"> Female</label><br>
+  <label><input type="radio" style="vertical-align: middle; margin: 0px;" name="gender" value="other"> Other</label>
+      </div>
+      <br>
+      <br>
+      <div class="input-group">
+      <label class="lables" for="check">Interested in: </label>
+        <label>
+      <input id="check" type="checkbox" name="sub1" value="Web"> web development</label> <br>
+        <label>
+          <input type="checkbox" name="sub2" value="Android"> Android App </label><br>
+<label><input type="checkbox" name="sub3" value="cloud" > Cloud Computing</label>
+      <br>
+<label><input type="checkbox" name="sub4" value="deep"> Deep Learning</label><br>
+<label><input type="checkbox" name="sub5" value="Block"> BlockChain</label><br>
+<label><input type="checkbox" name="sub6" value="ten" > Tensorflow</label>
+      </div>
+        <br>
+      <br>
+      <br>
+      <div class="input-group">
+      <label class="lables" for="ta">Additional Comments: </label>
+      <textarea id="ta" rows="4" cols="50">
+        Enter your comment here. . .
+      </textarea>
+      </div>
+       <br>
+      <br>
+      <br>
+     <div class="but" align="right">
+      <button id="submit" action="">submit</button>
+      </div>
+    </form>
+  </div>
+    
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
